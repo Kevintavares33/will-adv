@@ -768,6 +768,13 @@ height: 65px;
   .about-us-img-wrapper {
     grid-row: 3 / -1;
   }
+ 
+  .section-heading{
+    font-size: 3.3rem;
+  }
+  .cards-wrapper{
+    margin-left: 17%;
+  }
 
   .card {
     width: 34rem;
