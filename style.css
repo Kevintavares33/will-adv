@@ -6,7 +6,10 @@
   list-style: none;
   text-decoration: none;
 }
-
+a{
+  text-decoration: none;
+  align-items: center;
+}
 html {
   font-size: 62.5%;
 }
@@ -510,8 +513,9 @@ height: 65px;
 .cards-wrapper {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 8rem;
+  margin-top: 6rem;
   width: 100%;
+  margin-right: 20%;
 }
 
 .card {
