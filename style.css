@@ -481,7 +481,7 @@ height: 65px;
 
 .section-heading {
   font-family: "Muli", serif;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 300;
   color: #4b4b4b;
   margin-bottom: 6rem;
@@ -515,7 +515,7 @@ height: 65px;
   justify-content: space-evenly;
   margin-top: 6rem;
   width: 100%;
-  margin-right: 20%;
+  margin-right: 39%;
 }
 
 .card {
@@ -769,13 +769,7 @@ height: 65px;
     grid-row: 3 / -1;
   }
  
-  .section-heading{
-    font-size: 3.3rem;
-  }
-  .cards-wrapper{
-    margin-left: 17%;
-  }
-
+  
   .card {
     width: 34rem;
   }
@@ -868,6 +862,17 @@ height: 65px;
   .banner h1 {
     font-size: 5rem;
     line-height: 6rem;
+  }
+
+  .cards-wrapper{
+    margin-left: 35%;
+  }
+
+  .section-heading{
+    font-size: 3.3rem;
+  }
+  .underlineee{
+    margin-left: 147px;
   }
 
   .banner p {
