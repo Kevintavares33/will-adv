@@ -405,36 +405,41 @@ html {
 }
 
 .cardd {
-  width: 300px;
+  width: 350px;
+  height: 450px; 
   background-color: #f9f9f9;
   border-radius: 8px;
   padding: 20px;
   margin: 40px;
-  margin-top: 50px;
+  margin-top: 90px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   display: inline-block;
+  overflow: auto; 
 }
+
 
 .icon .icone{
 width: 65px;
 height: 65px;
+margin-bottom: 25px;
 }
 
 .icon-descript{
- font-size: 15px;
+font-size: 18px;
 
 }
 
 
 .description{
+  margin-top: 10px;
   font-size: 18px;
   color: #4b4b4b;
 }
 
 .button {
   display: block;
-  margin-top: 20px;
+  margin-top: 80px;
   background-color: #c29525;
   color: white;
   padding: 10px 20px;
@@ -838,6 +843,7 @@ height: 65px;
     flex-direction: column;
     align-items: center;
     margin-top: 4rem;
+    margin-left: 25rem;
   }
 
   .card {
@@ -1024,4 +1030,97 @@ height: 65px;
 .text p {
   font-size: 20px;
   color: #555;
+}
+
+
+
+
+
+/* styles-carat */
+
+
+.menu-horizontal {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  font-size:30px;
+  margin-bottom: 70px;
+  margin-top: -150px;
+  margin-right: 70rem;
+
+ 
+}
+
+.menu-carta {
+  margin-right: 20px; /* Ajuste a margem conforme necessário */
+}
+
+.menu-carta a {
+  text-decoration: none;
+  color: #000; /* Cor do texto do menu */
+}
+
+/* Estilo para o link quando o mouse passa por cima */
+.menu-carta a:hover {
+  text-decoration: underline;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.carta-cobra {
+  max-width: 800px; /* Define a largura máxima da div */
+  margin: 0 auto; /* Centraliza a div na tela */
+  padding: 20px; /* Espaçamento interno */
+}
+
+/* Estilos para os títulos e parágrafos */
+.carteira-titulo {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 10px; /* Espaçamento inferior */
+}
+
+.p-carta {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+
+.hheader {
+  height: 300px; /* Altura do cabeçalho, ajuste conforme necessário */
+  background-image: url('./images/extra.jpg'); /* Caminho para a sua imagem de fundo */
+  background-size: cover; /* Ajusta o tamanho da imagem de fundo para cobrir todo o cabeçalho */
+  background-position: center; /* Posiciona a imagem de fundo no centro do cabeçalho */
+  color: #fff; /* Cor do texto no cabeçalho, ajuste conforme necessário */
+  text-align: center; /* Alinha o texto ao centro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-carta {
+  margin: 0 20px; /* Espaçamento dos itens do menu, ajuste conforme necessário */
+}
+
+.menu-carta a {
+  text-decoration: none;
+  color: #f5f5f5; /* Cor dos links do menu */
+  font-weight:200;
+  font-size: 25px;
+}
+
+/* Estilo para o link quando o mouse passa por cima */
+.menu-carta a:hover {
+  text-decoration: underline;
 }
