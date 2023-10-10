@@ -841,7 +841,30 @@ font-size: 18px;
 
   nav .menu-horizontal{
     display: flex;
+    
   }
+/*pag carta*/
+  .menu-horizontal {
+    display: flex;
+    flex-direction: row;
+    margin-top: -30px;
+    margin-left: 490px;
+    justify-content: space-around;
+    padding: 0;
+    width: 80%vh;
+  }
+
+  .menu-carta {
+    list-style: none;
+    font-size: 2rem;
+    margin-top: -90px;
+  }
+
+  .menu-horizontal .menu-carta{
+    font-weight: 100;
+    font-size: 2px;
+  }
+/* fim cart*/
 
   .cards-wrapper {
     flex-direction: column;
